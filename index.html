@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>レスポンシブ対応</title>
+	<link rel="stylesheet" type="text/css" href="css/common/common.css">
+	<script type="text/javascript">
+		if ((navigator.userAgent.indexOf('iPhone') > 0 || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0)) {
+    		document.write('<link rel="stylesheet" type="text/css" href="css/mobile/style.css">');
+		}else if(navigator.userAgent.indexOf('iPad') > 0){
+        	document.write('<link rel="stylesheet" type="text/css" href="css/ipad/style.css">');
+    	}else{
+        	document.write('<link rel="stylesheet" type="text/css" href="css/pc/style.css">');
+    	}
+	</script>
+</head>
+<body>
+
+	<!-- PC画面body -->
+	<section id="pc">
+		<div class="box"><p class="text" data-js="txt">PC</p></div>
+		<div class="box"><p class="text" data-js="txt">PC</p></div>
+		<div class="box"><p class="text" data-js="txt">PC</p></div>
+	</section>
+
+	<!-- iPad画面 -->
+	<section id="ipad">
+		<div class="box"><p class="text" data-js="txt">iPad</p></div>
+		<div class="box"><p class="text" data-js="txt">iPad</p></div>
+		<div class="box"><p class="text" data-js="txt">iPad</p></div>
+	</section>
+
+	<!-- mobile画面body -->
+	<section id="mobile">
+		<div class="box"><p class="text" data-js="txt">Mobile</p></div>
+		<div class="box"><p class="text" data-js="txt">Mobile</p></div>
+		<div class="box"><p class="text" data-js="txt">Mobile</p></div>
+	</section>
+
+	<script src="js/index.js"></script>
+</body>
+</html>

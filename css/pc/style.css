@@ -1,0 +1,11 @@
+
+.text{
+	text-align: center;
+	font-size: 4em;
+}
+.box{
+	width: 100%;
+	background: #313;
+	margin: 1em 0;
+	color: #fff;
+}

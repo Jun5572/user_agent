@@ -1,0 +1,9 @@
+.text{
+	text-align: center;
+	font-size: 4em;
+}
+.box{
+	width: 100%;
+	background: orangered;
+	margin: 1em 0;
+}

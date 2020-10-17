@@ -1,0 +1,13 @@
+/*section#mobile{
+	display: block;
+}*/
+.text{
+	text-align: center;
+	font-size: 4em;
+}
+.box{
+	width: 100%;
+	text-align: center;
+	background: #11bad5;
+	margin: 1em 0;
+}
